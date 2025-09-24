@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizzeria Locale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body style="background-color: #D3DAD9;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #37353E;">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#" style="color: #D3DAD9;">Pizza Locale</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links y botón -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carta" style="color: #D3DAD9;">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros" style="color: #D3DAD9;">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto" style="color: #D3DAD9;">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn fw-bold" style="background-color: #715A5A; color: white;" target="_blank"
+                            href="https://wa.me/51940251934?text=¡Hola!%20Quiero%20pedir%20una%20pizza%20🍕">
+                            Ordena ahora
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Video -->
+    <section class="video-hero position-relative">
+        <video autoplay muted loop playsinline class="w-100" id="bg-video">
+            <source src="/img/video1.mp4" type="video/mp4">
+            Tu navegador no soporta videos HTML5.
+        </video>
+        <div class="overlay"></div>
+        <div class="content text-center">
+            <h1 class="fw-bold text-white">Bienvenido a Pizza Locale</h1>
+            <p class="text-white">LIFE IS TOO SHORT FOR BAD PIZZA</p>
+            <p class="text-white">Pizzas estilo Napolitano</p>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <!-- Título principal -->
+        <div class="section-title">            
+            <h1 class="main-title">Nuestra Carta <br>Precios en tamaño grande</h1>
+            <img src="/img/imagen13.jpg" alt="Food Menu" class="img-fluid title-image">
+        </div>
+
+        <section id="carta" class="padded">
+            <div class="container content">               
+            </div>
+
+            <!-- Contenedor de columnas -->
+            <div class="row">
+                <!-- Primera columna -->
+                <div class="col-md-4">
+                    <div class="menu-card">
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Americana</h5>
+                                <p class="text-muted small">Queso mozarella, jamon ingles y salsa de tomate</p>
+                            </div>
+                            <span class="menu-price">s/32</span>
+                        </div>
+                        <div class="menu-item menu-highlight d-flex justify-content-between">
+                            <div>
+                                <h5>Hawaina</h5>
+                                <p class="small">Queso mozarella, jamon ingles y piña fresca</p>
+                            </div>
+                            <span>s/34</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Margarita</h5>
+                                <p class="text-muted small">Queso mozarella, rodajas de tomate y albahaca</p>
+                            </div>
+                            <span class="menu-price">s/30</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Pepperoni</h5>
+                                <p class="text-muted small">Queso mozarella, pepperoni y salsa de tomate</p>
+                            </div>
+                            <span class="menu-price">s/33</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Continental</h5>
+                                <p class="text-muted small">Queso mozarella, jamon ingles, champiñones y cebolla caramelada</p>
+                            </div>
+                            <span class="menu-price">s/37</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Segunda columna -->
+                <div class="col-md-4">
+                    <div class="menu-card">
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Veggie</h5>
+                                <p class="text-muted small">Champiñones, rodajas de tomate, pimientos y aceituna negra</p>
+                            </div>
+                            <span class="menu-price">s/36</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Pepperoni 2.0</h5>
+                                <p class="text-muted small">Pepperoni, carne molida y salsa de tomate</p>
+                            </div>
+                            <span class="menu-price">s/38</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Camionera</h5>
+                                <p class="text-muted small">Jamon ingles, chorizo, carne molida y salame</p>
+                            </div>
+                            <span class="menu-price">s/40</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Capri</h5>
+                                <p class="text-muted small">Jamon ingles, pepperoni, tocino y salame</p>
+                            </div>
+                            <span class="menu-price">s/38</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Sartra</h5>
+                                <p class="text-muted small">Frank futter, cebolla blanca, chorizo finas hierbas y aceituna negra</p>
+                            </div>
+                            <span class="menu-price">s/40</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tercera columna -->
+                <div class="col-md-4">
+                    <div class="menu-card">
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Parrillera</h5>
+                                <p class="text-muted small">Chorizo parrillero, chorizo finas hierbas, carne molida y chimichurry de la casa</p>
+                            </div>
+                            <span class="menu-price">s/43</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Diavola</h5>
+                                <p class="text-muted small">Pepperoni, tocino y deliciosa miel picante</p>
+                            </div>
+                            <span class="menu-price">s/42</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Pan al Ajo</h5>
+                                <p class="text-muted small">Masa artesanal, garlic butter, queso mozarella y oregano</p>
+                            </div>
+                            <span class="menu-price">s/15</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Lasaña</h5>
+                                <p class="text-muted small">Capas de masa con salsa blanca y salsa bolognesa</p>
+                            </div>
+                            <span class="menu-price">s/27</span>
+                        </div>
+                        <div class="menu-item d-flex justify-content-between">
+                            <div>
+                                <h5>Calzone</h5>
+                                <p class="text-muted small">Masa artesanal, champiñones, jamon, cebolla y queso mozarella</p>
+                            </div>
+                            <span class="menu-price">s/32</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Imagen -->
+                <div class="col-md-6 mb-3">
+                    <div class="card shadow-lg border-0" style="background-color: #44444E;">
+                        <div class="card-body text-center">
+                            <img src="/img/imagen12.jpg" class="img-fluid rounded" alt="Nosotros">
+                        </div>
+                    </div>
+                </div>
+                <!-- Texto -->
+                <div class="col-md-6 mb-3">
+                    <div class="card shadow-lg border-0" style="background-color: #715A5A; color: rgb(0, 0, 0);">
+                        <div class="card-body">
+                            <h2 class="fw-bold fs-1">Sobre Nosotros</h2>
+                            <p class="fs-3">
+                                En <strong>Pizza Locale</strong> preparamos cada pizza con pasión y tradición.
+                                Usamos masa artesanal, ingredientes frescos y recetas que hacen de cada bocado una
+                                experiencia única.
+                            </p>
+                            <p class="fs-3">
+                                Nuestra misión es compartir la verdadera pizza artesanal con todos nuestros clientes, en
+                                un ambiente acogedor y familiar.
+                            </p>
+                            <div class="rating mt-3">
+                                <p class="fw-bold text-white fs-4">
+                                    ⭐ 4.9 / 5 en Google Maps
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="horario py-5" style="background-color: #37353E; color: #D3DAD9;">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Horario</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h4>Dirección</h4>
+                    <p>Jirón José Pezet y Monel, 2081</p>
+                    <p>Lima, Lince</p>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h4>Horario</h4>
+                    <p>Lunes a jueves: 6pm - 11pm</p>
+                    <p>Viernes a domingo: 5pm - 11:30pm</p>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h4>Teléfono</h4>
+                    <p>+51 940 251 934</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Redes Sociales</h4>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="https://www.facebook.com/share/195Rw9Wyif/"><i class="bi bi-facebook" style="font-size: 30px; color: white;"></i></a>
+                        <a href="https://www.instagram.com/pizza_locale?igsh=ajg4NWt2Z3c2M3kz"><i class="bi bi-instagram" style="font-size: 30px; color: white;"></i></a>
+                        <a href="https://wa.me/51940251934?text=¡Hola!%20Quiero%20pedir%20una%20pizza%20🍕"><i class="bi bi-whatsapp" style="font-size: 30px; color: white;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <section>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d289.97124693095003!2d-77.04220448791682!3d-12.086630847970717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8f6249b08b1%3A0x9c97b9f72103b98b!2sPizza%20Locale!5e0!3m2!1ses!2spe!4v1750379031617!5m2!1ses!2spe"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center p-3" style="background-color: #44444E;">
+        <p>&copy; 2025 Pizza Locale. Todos los derechos reservados.</p>
+        <small>Síguenos en redes sociales</small>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
