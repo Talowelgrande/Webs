@@ -8,7 +8,7 @@
 
 /* Fondo general */
 body {
-    background-image: url("img/fondo.jpg");
+    background-image: url("../img/fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -477,3 +477,4 @@ body {
     display: inline-block; /* Para ajustar el tamaño del cuadro al texto */
 
 }
+
